@@ -69,7 +69,7 @@
         <!-- 👇 新增：四级类目筛选器（和三级完全一样逻辑） -->
         <select id="l3Filter" onchange="applyFilters()"><option value="">四级类目(全部)</option></select>
 
-        <select id="pFilter" onchange="applyFilters()"><option value="">参考价依据(全部)</option><option value="爆款">爆款</option><option value="Top_1000">Top_1000</option></select>
+        <select id="pFilter" onchange="applyFilters()"><option value="">参考价依据(全部)</option><option value="爆品竞价">爆品竞价</option><option value="1688三档价">1688三档价</option></select>
         
         <!-- 👇 【新增】更新时间筛选器（和参考价依据逻辑完全一致） -->
         <select id="dateFilter" onchange="applyFilters()"><option value="">更新时间(全部)</option></select>
